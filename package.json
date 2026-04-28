@@ -1,0 +1,16 @@
+{
+  "name": "backend_main",
+  "version": "1.0.0",
+  "description": "Major Backend project with implementation of complex features",
+  "keywords": [
+    "backend",
+    "javascript"
+  ],
+  "license": "ISC",
+  "author": "Ritam Chakraborty",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
