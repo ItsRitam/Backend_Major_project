@@ -1,5 +1,5 @@
 const asyncHandler = (requestHandler)=>{
-     (req,res,next)=>{
+    return (req,res,next)=>{
         Promise.resolve(requestHandler(req,res,next))
         .catch(err => next(err))// The next is always used to pass the error to the error handling
         //  middleware in express. Basically, if any error occurs in the requestHandler, it will be
